@@ -1,0 +1,245 @@
+/*selecting all*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins' ,sans-serif;
+
+}
+body{
+    color: #ededed;
+
+}
+/*section{
+    min-height: 100vh;
+    padding:10rem 9% 2rem;
+}*/
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10%;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+
+}
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.navbar a{
+    display:inline-block;
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+    transition: .3s;
+
+}
+.navbar a:hover{
+    color: #0ef;
+
+}
+.home{
+    position: relative;
+    width: 100%;
+    justify-content: space-between;
+    height: 100vh;
+   /* background-image:url('../images/images.jpg');*/
+   background-color: rgb(0, 0, 0);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding: 70px 10% 0;
+
+}
+.home-content{
+    max-width: 600px;
+
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+
+}
+.home-content h3:nth-of-type(2){
+        margin-bottom: 30px;
+}
+span{
+    color: #0ef;
+
+}
+
+.home-content h1{
+    font-size: 56px;
+    font-weight: 700;
+    margin: -3px 0;
+
+}
+.home-content p{
+    font-size: 20px;
+
+}
+.home-sci a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #0ef;
+    border-radius: 50%;
+    font-size: 20px;
+    color: #0ef;
+    text-decoration: none;
+   margin: 30px 15px 30px 0;
+
+}
+.home-sci a:hover{
+    background: #0ef;
+    color: #081b29;
+    box-shadow: 0 0 20px #0ef;
+
+}
+.btn{
+    display: inline-block;
+    padding: 12px 28px;
+    background: #0ef;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #081b29;
+    letter-spacing: 1px;
+    text-decoration: none;
+    font-weight: 600;
+
+}
+.btn:hover{
+    box-shadow: 0 0 5px #0ef,
+    0 0 25px #0ef,
+    0 0 50px #0ef,
+    0 0 100px #0ef,
+    0 0 200px #0ef;
+
+}
+.about{
+    background-color: black;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    background-color: rgb(0, 0, 0);
+
+}
+.about-img img{
+    width: 40vw;
+}
+.heading{
+    text-align: center;
+    font-size: 4.0rem;
+}
+.about-content h2{
+    text-align: left;
+    line-height: 1.2;
+
+}
+.about-content h3{
+    font-size: 2.2rem;
+}
+.about-content p{
+    font-size: 1.2rem;
+    margin: 2rem 0 3rem;
+}
+.services h2{
+    margin-bottom: 5rem;
+    
+}
+
+.services{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.services-container .services-box{
+    flex: 1 1 30rem;
+    background: black;
+    padding: 2rem 1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+    border: .2rem solid white;
+    transition: .5s eas;
+}
+.services-container .services-box:hover{
+    border-color: #0ef;
+    transform: scale(1.02);
+}
+.services-box i {
+    font-size: 4rem;
+    color: #0ef;
+}
+.services-box h3{
+    font-size: 2rem;
+}
+.services-box p{
+    font-size: 1.2rem;
+    margin: 1rem 0 3rem;
+}
+.portfolio{
+    background-color: rgb(0, 0, 0);
+}
+.portfolio h2{
+    margin-bottom: 4rem;
+
+}
+.portfolio-container{
+    display: grid;
+    grid-template-columns: repeat(2,2fr) ;
+    align-items: center;
+    gap: 2.5rem;
+}
+.portfolio-container .portfolio-box{
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 1rem #0ef;
+    overflow: hidden;
+    display: flex;
+}
+.portfolio-box img{
+    width: 100%;
+}
+.portfolio-layer p{
+    padding: 20px;
+}
+.portfolio-layer h4{
+    padding: 10px;
+    color: #0ef;
+    font-size: 30px;
+}
+.portfolio-layer a{
+    padding: 10px;
+    font-size: 2rem;
+}
+.portfolio-layer a{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    background: #0ef;
+    border-radius: 50%;
+    text-decoration: none;
+}
